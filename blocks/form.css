@@ -39,6 +39,7 @@
   box-sizing: border-box;
   margin-top: 8px;
   border-radius: 4px;
+  border: 1px solid #838383;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
