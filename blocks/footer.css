@@ -1,6 +1,6 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-  padding: 60px 80px 60px 80px;
+  padding: 60px 80px;
 }
 
 .footer__logo {
@@ -27,6 +27,8 @@
 .footer__list {
   padding-left: 0;
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .footer__list-item {
@@ -35,7 +37,8 @@
 }
 
 .footer__social-link {
-  font-family: "Inter," Arial, sans-serif;
+  margin-top: 0;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -43,7 +46,11 @@
   color: #ffffff;
 }
 
-.footer__social .footer__social-icon {
+.footer__social-link:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer__social-icon {
   height: 16px;
   width: 16px;
   margin-right: 10px;

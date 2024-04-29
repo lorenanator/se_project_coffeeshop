@@ -28,6 +28,8 @@
   background-color: #2f80ed;
   background-image: url(../images/check.svg);
   border-radius: 2px;
+  height: 20px;
+  width: 20px;
 }
 
 .form__input {
@@ -42,10 +44,13 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #838383;
   height: 60px;
   max-width: 385px;
   text-indent: 10px;
+}
+
+.form__input::placeholder {
+  color: #838383;
 }
 
 .form__button {
