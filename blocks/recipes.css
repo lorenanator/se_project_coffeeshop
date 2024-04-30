@@ -57,12 +57,8 @@
   color: #ffffff;
 }
 
-.recipes__videos-caption {
-  margin-top: 24px;
-  margin-bottom: 0;
-}
-
 .recipes__span-text {
   display: flex;
+  margin-top: 24px;
   justify-content: space-between;
 }
