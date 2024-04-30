@@ -45,6 +45,7 @@
   line-height: 20px;
   color: #ffffff;
   text-decoration: none;
+  transition: color 0.3s ease-in;
 }
 
 .footer__social-link:last-of-type {
@@ -74,5 +75,4 @@
 
 .footer__social-link:hover {
   color: #c1c1c1;
-  transition-timing-function: ease-in;
 }
